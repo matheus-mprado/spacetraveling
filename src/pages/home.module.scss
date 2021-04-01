@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+}
+
+
+.postResume {
+  margin: 3.125rem 0;
+
+  h1 {
+    color: var(--heading);
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 2.125rem;
+    margin-bottom: 0.5rem;
+  }
+  h2 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--info);
+    margin-bottom: 1.5625rem;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    span {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-size: 0.875rem;
+
+      svg{
+        margin-right:0.5rem;
+      }
+
+      & + span {
+        margin-left: 2rem;
+      }
+    }
+  }
+
+  &:hover{
+    h1{
+      color:var(--highlight)
+    }
+  }
+}
+
+.morePosts{
+  background: transparent;
+  color: var(--highlight);
+  border:none;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}

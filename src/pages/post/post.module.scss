@@ -1,0 +1,75 @@
+.container {
+  width: 100%;
+}
+
+.banner {
+  max-height: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.postContent {
+  header {
+    margin-bottom: 4rem;
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: var(--heading);
+      margin-bottom: 1.5rem;
+    }
+    div {
+      span {
+        font-size: 0.875rem;
+        display: inline-flex;
+        align-items: center;
+
+        svg {
+          width: 20px;
+          height: 20px;
+
+          margin-right: 0.5rem;
+        }
+
+        & + span {
+          margin-left: 1.5rem;
+        }
+      }
+    }
+  }
+  main {
+    section {
+      margin-bottom: 3.25rem;
+      text-align: justify;
+      h2 {
+        font-size: 2.25rem;
+        font-weight: 700;
+        margin-bottom: 2.875rem;
+        color: var(--heading);
+      }
+      p {
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+      a{
+        color:var(--highlight)
+      }
+      ul{
+        margin-bottom: 1.5rem;
+        li{
+          margin-bottom: 1.5rem;
+          line-height: 1.5rem;
+          font-size: 1.125rem;
+        }
+      }
+    }
+  }
+}
